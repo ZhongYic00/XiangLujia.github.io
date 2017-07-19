@@ -455,7 +455,7 @@ video {
   border-bottom: 1px solid #f0f0f0;
   background-color: #fefefe;
 }
-.echo blockquote.right {
+.right {
   border-left: 0;
   border-right: 8px solid #399c9c;
 }
@@ -497,7 +497,7 @@ video {
 .highlight .css .id,
 .highlight .css .class,
 .highlight .css .pseudo {
-  color: #91ba61;
+  color: #69c;
 }
 .highlight .number,
 .highlight .preprocessor,
@@ -510,7 +510,7 @@ video {
 .highlight .class,
 .highlight .ruby .class .title,
 .highlight .css .rules .attribute {
-  color: #91ba61;
+  color: #69c;
 }
 .highlight .string,
 .highlight .value,
