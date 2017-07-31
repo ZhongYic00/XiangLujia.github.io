@@ -1,0 +1,6 @@
+D:\BLOG\xianglujia.github.io\themes\ochuunn\source\css\base 中的base改变背景图
+D:\BLOG\xianglujia.github.io\themes\ochuunn\source\js 中的particles.oli改变博客第一面的球的配置
+有颜色，圆圈，透明度，速度等的设置
+D:\BLOG\xianglujia.github.io\themes\ochuunn\source\css\partial 
+的main是主页and页首+页脚的设置
+pos是文章设置

@@ -10,31 +10,31 @@ $(function () {
                 }
             },
             "color": {
-                "value": "#399c9c"
+                "value": "#000000"
             },
             "shape": {
                 "type": "circle",
                 "stroke": {
-                    "width": 0,
-                    "color": "#000000"
+                    "width": 2,
+                    "color": "#F0F8FF"
                 },
                 "polygon": {
-                    "nb_sides": 5
+                    "nb_sides": 10
                 },
                 // "image": {
-                //     "src": "img/github.svg",
-                //     "width": 100,
-                //     "height": 100
-                // }
+                //    "src": "/img/github.svg",
+                //    "width": 10,
+                //    "height": 10
+                //}
             },
             "opacity": {
                 "value": 0.3,
-                "random": false,
+                "random": true,
                 "anim": {
-                    "enable": false,
+                    "enable": true,
                     "speed": 1,
                     "opacity_min": 0.2,
-                    "sync": false
+                    "sync": true
                 }
             },
             "size": {
@@ -42,17 +42,17 @@ $(function () {
                 "random": true,
                 "anim": {
                     "enable": false,
-                    "speed": 30,
-                    "size_min": 0.1,
+                    "speed": 5,
+                    "size_min": 0.5,
                     "sync": false
                 }
             },
             "line_linked": {
                 "enable": true,
                 "distance": 250,
-                "color": "#40afaf",
-                "opacity": 0.3,
-                "width": 1
+                "color": "#99FFCC",
+                "opacity": 0.4,
+                "width": 3
             },
             "move": {
                 "enable": true,

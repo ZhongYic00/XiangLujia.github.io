@@ -206,12 +206,12 @@ th {
 }
 html {
   background-color: #fff;
-  background-image: url("https://source.unsplash.com/collection/954550/1920x1080");
+  background-image: url("/img/bg001.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: 50% 0;
-  color: #555;
+  color: #000;
   font-style: normal;
   text-rendering: optimizeLegibility;
 }
@@ -235,7 +235,7 @@ samp {
   font-family: 'Source Code Pro', Consolas, 'Liberation Mono', Courier, monospace, serif;
 }
 a {
-  color: #258fb8;
+  color: #00f;
   text-decoration: none;
 }
 blockquote,
@@ -319,7 +319,7 @@ video {
   line-height: 1.5;
 }
 .echo a {
-  color: #258fb8;
+  color: #00f;
 }
 .echo a:hover,
 .echo a:focus,
@@ -451,7 +451,7 @@ video {
 .echo blockquote {
   margin: 1.6em -50px;
   padding: 10px 45px;
-  border-left: 8px solid #399c9c;
+  border-left: 8px solid #0f0;
   border-right: 0;
   border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
@@ -459,33 +459,32 @@ video {
 }
 .right {
   border-left: 0;
-  border-right: 8px solid #399c9c;
+  border-right: 8px solid #0f0;
 }
 .highlight {
   overflow: auto;
-  color: #399c9c;
+  color: #81a2be;
   border: 1px solid #f0f0f0;
 }
 .highlight .gutter {
-  color: #666;
-  display: none;
+  color: #ccc;
 }
 .highlight .code {
   padding: 1em 45px;
 }
 .highlight figcaption {
   margin-bottom: 1em;
-  color: #999;
+  color: #666;
   font-size: 0.85em;
 }
 .highlight figcaption a {
   float: right;
 }
 .highlight .comment {
-  color: #b0bec5;
+  color: #999;
 }
 .highlight .title {
-  color: #399c9c;
+  color: #0f0;
 }
 .highlight .variable,
 .highlight .attribute,
@@ -499,7 +498,7 @@ video {
 .highlight .css .id,
 .highlight .css .class,
 .highlight .css .pseudo {
-  color: #69c;
+  color: #00f;
 }
 .highlight .number,
 .highlight .preprocessor,
@@ -507,12 +506,12 @@ video {
 .highlight .literal,
 .highlight .params,
 .highlight .constant {
-  color: #ff5370;
+  color: #f0f;
 }
 .highlight .class,
 .highlight .ruby .class .title,
 .highlight .css .rules .attribute {
-  color: #69c;
+  color: #00f;
 }
 .highlight .string,
 .highlight .value,
@@ -520,10 +519,10 @@ video {
 .highlight .header,
 .highlight .ruby .symbol,
 .highlight .xml .cdata {
-  color: #91ba61;
+  color: #0f0;
 }
 .highlight .css .hexcolor {
-  color: #6cc;
+  color: #8b008b;
 }
 .highlight .function,
 .highlight .python .decorator,
@@ -533,11 +532,11 @@ video {
 .highlight .perl .sub,
 .highlight .javascript .title,
 .highlight .coffeescript .title {
-  color: #80cbc4;
+  color: #f00;
 }
 .highlight .keyword,
 .highlight .javascript .function {
-  color: #c9c;
+  color: #00f;
 }
 .highlight .marked {
   background-color: #ffecec;
@@ -579,7 +578,7 @@ video {
 .foot {
   padding: 0 50px;
   height: 120px;
-  background-color: #399c9c;
+  background-color: #033;
   line-height: 120px;
   box-sizing: border-box;
 }
@@ -597,14 +596,14 @@ video {
   margin-left: 20px;
 }
 .head-nav__link {
-  color: #fff;
+  color: #ff0;
 }
 .head-nav__link:hover {
   color: #f0f0f0;
   text-decoration: underline;
 }
 .main {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 30px;
 }
 .archive-title {
@@ -626,19 +625,19 @@ video {
 .foot-copy {
   text-align: center;
   color: #fff;
-  font-size: 12px;
-  font-size: 0.75rem;
+  font-size: 15px;
+  font-size: 0.9375rem;
 }
 .page-menu__item {
   display: inline-block;
 }
 .page-menu__link {
-  color: #fff;
+  color: #ff0;
   font-size: 30px;
   font-size: 1.875rem;
 }
 .page-menu__link--disabled {
-  color: #f0f0f0;
+  color: #ff0;
 }
 ::-webkit-scrollbar {
   width: 5px;
@@ -651,7 +650,7 @@ video {
 }
 ::-webkit-scrollbar-thumb {
   -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,0.3);
-  background-color: #399c9c;
+  background-color: #0f0;
 }
 .right p {
   text-align: right;
@@ -675,25 +674,25 @@ video {
   padding: 20px;
   text-align: center;
   margin-top: 20px;
-  background-color: #fff;
+  background-color: #cfc;
 }
 .reward .btn-reward {
   padding: 10px 20px;
-  background-color: #399c9c;
+  background-color: #f00;
   color: #fff;
   display: inline-block;
   transition: all 0.3s;
 }
 .reward .btn-reward:hover {
-  background-color: #40afaf;
+  background-color: #f00;
 }
 .reward .reward-wrapper {
   margin-top: 20px;
   display: none;
 }
 .reward .reward-wrapper img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border: 1px solid #f0f0f0;
   margin: 0 10px;
 }
@@ -710,19 +709,19 @@ video {
   margin: 30px 50px;
 }
 .post__time {
-  color: #ccc;
+  color: #c00;
   font-size: 12px;
   font-size: 0.75rem;
 }
 .post__title {
   margin-top: 5px;
   line-height: 1.5;
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: normal;
 }
 .post__title > a {
-  color: #666;
+  color: #000;
   transition: all 0.3s;
 }
 .post__title > a:hover {
@@ -789,7 +788,7 @@ video {
 .post__tag__link,
 .post__more {
   padding: 10px 15px 10px 0;
-  color: #3cb371;
+  color: #f0f;
   font-size: 14px;
   font-size: 0.875rem;
 }
@@ -804,7 +803,7 @@ video {
   color: #9c396b;
 }
 .post__tag__link:before {
-  content: "#";
+  content: "@";
 }
 .post__more {
   padding: 10px 20px;
