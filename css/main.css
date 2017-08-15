@@ -483,7 +483,7 @@ figcaption a {
   color: #999;
 }
 .title {
-  color: #0f0;
+  color: #f60;
 }
 .variable,
 .attribute,
@@ -497,7 +497,7 @@ figcaption a {
 .css .id,
 .css .class,
 .css .pseudo {
-  color: #00f;
+  color: #f0f;
 }
 .number,
 .preprocessor,
@@ -505,12 +505,12 @@ figcaption a {
 .literal,
 .params,
 .constant {
-  color: #f0f;
+  color: #f00;
 }
 .class,
 .ruby .class .title,
 .css .rules .attribute {
-  color: #00f;
+  color: #ffa500;
 }
 .string,
 .value,
