@@ -463,7 +463,6 @@ video {
 }
 .highlight {
   overflow: auto;
-  color: #81a2be;
   border: 1px solid #f0f0f0;
 }
 .highlight .gutter {
@@ -472,73 +471,73 @@ video {
 .highlight .code {
   padding: 1em 45px;
 }
-.highlight figcaption {
+figcaption {
   margin-bottom: 1em;
   color: #666;
   font-size: 0.85em;
 }
-.highlight figcaption a {
+figcaption a {
   float: right;
 }
-.highlight .comment {
+.comment {
   color: #999;
 }
-.highlight .title {
+.title {
   color: #0f0;
 }
-.highlight .variable,
-.highlight .attribute,
-.highlight .tag,
-.highlight .regexp,
-.highlight .ruby .constant,
-.highlight .xml .tag .title,
-.highlight .xml .pi,
-.highlight .xml .doctype,
-.highlight .html .doctype,
-.highlight .css .id,
-.highlight .css .class,
-.highlight .css .pseudo {
+.variable,
+.attribute,
+.tag,
+.regexp,
+.ruby .constant,
+.xml .tag .title,
+.xml .pi,
+.xml .doctype,
+.html .doctype,
+.css .id,
+.css .class,
+.css .pseudo {
   color: #00f;
 }
-.highlight .number,
-.highlight .preprocessor,
-.highlight .built_in,
-.highlight .literal,
-.highlight .params,
-.highlight .constant {
+.number,
+.preprocessor,
+.built_in,
+.literal,
+.params,
+.constant {
   color: #f0f;
 }
-.highlight .class,
-.highlight .ruby .class .title,
-.highlight .css .rules .attribute {
+.class,
+.ruby .class .title,
+.css .rules .attribute {
   color: #00f;
 }
-.highlight .string,
-.highlight .value,
-.highlight .inheritance,
-.highlight .header,
-.highlight .ruby .symbol,
-.highlight .xml .cdata {
+.string,
+.value,
+.inheritance,
+.header,
+.ruby .symbol,
+.xml .cdata {
   color: #0f0;
 }
-.highlight .css .hexcolor {
+.css .hexcolor {
   color: #8b008b;
 }
-.highlight .function,
-.highlight .python .decorator,
-.highlight .python .title,
-.highlight .ruby .function .title,
-.highlight .ruby .title .keyword,
-.highlight .perl .sub,
-.highlight .javascript .title,
-.highlight .coffeescript .title {
+.function,
+.python .decorator,
+.python .title,
+.ruby .function .title,
+.ruby .title .keyword,
+.perl .sub,
+.javascript .title,
+.coffeescript .title {
   color: #f00;
 }
-.highlight .keyword,
-.highlight .javascript .function {
+.keyword,
+.javascript .function {
   color: #00f;
 }
-.highlight .marked {
+.marked {
   background-color: #ffecec;
 }
 /* ==========================================================================
