@@ -6,8 +6,9 @@
 <h2 id="HINT"><a href="#HINT" class="headerlink" title="HINT"></a>HINT</h2><p>两棵树分别为1-2-3;1-3-2</p>
 <h2 id="Source"><a href="#Source" class="headerlink" title="Source"></a>Source</h2><h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>首先做这个题要知道一个Prufer序列的概念，不然呵呵<br>于是我就去学习了这个东西<br><a href="http://blog.csdn.net/popoqqq/article/details/40182169" target="_blank" rel="external">参考博客</a></p>
 <h3 id="Prufer序列"><a href="#Prufer序列" class="headerlink" title="Prufer序列"></a>Prufer序列</h3><p>把一棵树进行以下操作：<br>1.找到编号最小的叶节点，删除这个节点，然后与这个叶节点相连的点计入序列<br>2.反复进行1，直到这棵树只剩下两个节点时，退出<br><img src="http://img.blog.csdn.net/20141017104000767?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvUG9Qb1FRUQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast" alt=""><br>比如说这个图(来自度受百科)<br>最小叶节点为2，删除2，将3计入序列<br>最小叶节点为4，删除4，将5计入序列<br>最小叶节点为5，删除5，将1计入序列<br>最小叶节点为1，删除1，将3计入序列<br>图中只剩下两个节点，退出<br>于是得到这棵树的<strong>Prufer序列为{3,5,1,3}</strong></p>
-<p>以上来自他的博客<br>求一个树的Prufer序列，可以用迭代删点的方法做，到只剩两个点<br>所以得到一个长度为n-2的序列<br><strong>Prufer序列的性质</strong></p>
+<p>以上来自他的博客<br>求一个树的Prufer序列，可以用迭代删点的方法做，到只剩两个点<br>所以得到一个长度为n-2的序列</p>
 <blockquote>
+<p><strong>Prufer序列的性质</strong></p>
 <ol>
 <li>唯一性，一个Prufer序列对应一个树（如果相同，每个节点的子节点和出入度相同，那么树也相同）</li>
 <li>一个点若度数为d，则一定在Prufer序列中出现了d-1次</li>
